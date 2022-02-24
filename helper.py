@@ -3,7 +3,8 @@ import numpy as np
 class OHE():
     def __init__(self):
         pass
-
+    
+    # One Hot Encoder function
     def oneHotEncode(self,num_classes, Y_train_raw):
         Ydata = np.zeros((num_classes, Y_train_raw.shape[0]))
         for i in range(Y_train_raw.shape[0]):
