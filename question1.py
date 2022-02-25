@@ -4,7 +4,8 @@ from keras.datasets import fashion_mnist
 import matplotlib.pyplot as plt
 
 # initializing wandb project
-wandb.init(project="fashion_mnist)
+wandb.init(project="fashion_mnist")
+
 
            
 # Load the dataset
